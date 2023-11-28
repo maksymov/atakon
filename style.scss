@@ -10,7 +10,7 @@
 
 header {
   background-image: url('{{ site.baseurl }}/images/header-bg.jpg');
-  min-height: 400px;
+  min-height: 200px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -24,6 +24,11 @@ footer {
 
 #main {
   min-height: 400px;
+}
+
+.logo {
+  padding: 0;
+  margin: 0;
 }
 
 img {
@@ -44,6 +49,11 @@ h2 {
 .card-img-top {
   margin: 0px;
   max-width: 100%;
+}
+
+.carousel-inner img {
+  max-width: none;
+  max-height: none;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
